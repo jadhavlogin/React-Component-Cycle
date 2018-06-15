@@ -1,7 +1,7 @@
-This project is for understand the How to use Router in react application.
+This project is for understand the How the react executes its component life cycle.
 ## Table of Contents
 
-- [React Router V4](#react-router-v4)
+- [Component Life Cycle](#component-life-cycle)
 - [Folder Structure](#folder-structure)
 - [Available Scripts](#available-scripts)
   - [npm start](#npm-start)
@@ -10,9 +10,16 @@ This project is for understand the How to use Router in react application.
   - [npm run eject](#npm-run-eject)
 - [Supported Browsers](#supported-browsers)
 
-## React Router v4
-   This will demostrate the use of Route, BrowserRouter, Switch, Link in React application. By using this we can make routing in react web application
-
+## Component Life Cycle
+   React contains following Component hooks. 
+    - componentWillMount
+    - componentDidMount
+    - componentWillReceiveProps
+    - shouldComponentUpdate 
+    - componentWillUpdate 
+    - componentDidUpdate
+    - componentWillUnmount
+  
 ## Folder Structure
 
 After creation, your project should look like this:
